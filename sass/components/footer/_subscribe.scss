@@ -1,0 +1,73 @@
+.subscribe-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--hidden-text-color);
+    margin-bottom: 20px;
+}
+
+.subscribe-email {
+    font-size: 16px;
+    line-height: 1.25;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 12px;
+    min-width: 358px;
+    min-height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    width: 358px;
+    background-color: var(--first-bg-color);
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-email:focus {
+    outline: transparent;
+    background: transparent;
+}
+
+.subscribe-button {
+    position: relative;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    font-family: var(--secondary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    text-align: left;
+    padding-right: 28px;
+    padding-left: 29px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-width: 200px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--hidden-text-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    transition: background-color var(--animation-hover);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+    background-color: var(--accent-active-color);
+}
+
+.subscribe-icon {
+    position: absolute;
+    bottom: 13px;
+    right: 28px;
+    width: 24px;
+    height: 24px;
+}
