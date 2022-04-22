@@ -1,4 +1,6 @@
-.modal-btn {
+
+
+.modal-button {
     display: flex;
     align-items: center;
     position: fixed;
@@ -14,43 +16,33 @@
     cursor: pointer;
 }
 
-.modal-btn-icon {
+.modal-button-icon {
     transform: fill var(--animation-hover);
 }
 
-.modal-btn-icon:hover,
-.modal-btn-icon:focus {
+.modal-button-icon:hover,
+.modal-button-icon:focus {
     fill: var(--accent-color);
 }
 
-.submit-btn {
+.submit-button {
+    @extend %button;
     display: block;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    text-align: center;
-    letter-spacing: 0.06em;
-
     padding: 10px 55px 10px 56px;
     margin-left: auto;
     margin-right: auto;
-
     color: var(--hidden-text-color);
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     border: transparent;
-
-    cursor: pointer;
-
     transition: background-color var(--animation-hover);
 }
 
-.submit-btn:hover {
+.submit-button:hover {
     background-color: var(--accent-active-color);
 }
 
-.submit-btn:focus {
+.submit-button:focus {
     background-color: var(--accent-active-color);
     outline: transparent;
 }
