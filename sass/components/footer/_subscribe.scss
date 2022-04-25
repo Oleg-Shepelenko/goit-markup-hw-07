@@ -1,5 +1,3 @@
-
-
 .subscribe-title {
   font-weight: 700;
   font-size: 14px;
@@ -26,11 +24,11 @@
   background-color: var(--first-bg-color);
   cursor: pointer;
   color: rgba(255, 255, 255, 0.6);
-}
 
-.subscribe-email:focus {
-  outline: transparent;
-  background: transparent;
+  &:focus {
+    outline: transparent;
+    background: transparent;
+  }
 }
 
 .subscribe-button {
@@ -47,11 +45,11 @@
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: background-color var(--animation-hover);
-}
 
-.subscribe-button:hover,
-.subscribe-button:focus {
-  background-color: var(--accent-active-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-active-color);
+  }
 }
 
 .subscribe-icon {

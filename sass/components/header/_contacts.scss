@@ -23,6 +23,11 @@
 
 .contacts__item {
   display: flex;
+
+  &:hover .contacts__icon,
+  &:focus .contacts__icon {
+    fill: var(--accent-color);
+  }
 }
 
 .contacts__item + .contacts__item {
@@ -37,9 +42,4 @@
   fill: var(--primary-text-color);
   cursor: pointer;
   transition: fill var(--animation-hover);
-}
-
-.contacts__item:hover .contacts__icon,
-.contacts__item:focus .contacts__icon {
-  fill: var(--accent-color);
 }
